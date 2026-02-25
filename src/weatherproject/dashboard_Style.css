@@ -1,0 +1,173 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.root {
+    -fx-color1:#1D71F2;
+    -fx-color2:#1C9CF6;
+    -fx-color3:#19C3FB;
+    -fx-color4:#E3F4FE;
+    -fx-color5:#FFFAE0;
+    -fx-color6:#FFCD00;
+}
+
+.mainFxmlClass {
+    -fx-font-family: "Dubai";
+}
+
+.navigation {
+    -fx-background-color:#eef2f3;
+}
+
+.midSection {
+    -fx-background-color:#f6f6f6;
+}
+
+.infoSection {
+    -fx-background-color: linear-gradient(to bottom, #457fca, #5691c8);
+}
+
+.yearMonth {
+    -fx-text-fill:#112a4c;
+    -fx-font-weight:bold;
+    -fx-font-size:24px;
+}
+
+.dayDate {
+    -fx-text-fill:#112a4c;
+    -fx-font-size:17px;
+
+}
+
+.searchBarTxtfield {
+    -fx-background-color:#d0d0d0;
+    -fx-prompt-text-fill:gray;
+    
+}
+
+.searchBar {
+    /*#fcfbfc*/
+    -fx-background-color:#d0d0d0;
+    -fx-background-radius:10px;
+    -fx-text-fill:white;
+    -fx-font-size:18px;
+}
+
+.searchBar:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+    -fx-cursor:hand;
+}
+
+
+.logo {
+    -fx-text-fill:#2f68fd;
+    -fx-font-weight:bold;
+    -fx-font-size:20px;
+}
+
+.navButton {
+    -fx-text-fill:#112a4c;
+    -fx-font-size:16px;
+}
+
+.navButton:hover {
+    -fx-text-fill:#2f68fd;
+    -fx-font-weight:bold;
+}
+
+.tiles {
+    -fx-background-color:#E3F4FE;
+    -fx-background-radius: 10px;
+}
+
+.tiles:hover {
+    -fx-background-color:#c8d7e0;
+    -fx-background-radius: 10px;
+    -fx-cursor:hand;
+}
+
+.tileText {
+    -fx-text-fill:#112a4c;
+    -fx-font-size:16px;
+}
+
+.temp-location {
+    -fx-text-fill:white;
+    -fx-font-weight:bold;
+    -fx-font-size:24px;
+}
+
+.sunrRiseSet {
+    -fx-text-fill:white;
+    -fx-font-weight:bold;
+    -fx-font-size:18px;
+}
+
+.temperature {
+    -fx-text-fill:white;
+    -fx-font-weight:bold;
+    -fx-font-size:32px;
+}
+
+.feelsLike {
+    -fx-text-fill:white;
+    -fx-font-weight:bold;
+    -fx-font-size:20px;
+}
+
+.feelsLikeTemp {
+    -fx-text-fill:white;
+    -fx-font-weight:bold;
+    -fx-font-size:16px;
+}
+
+.left-text {
+    -fx-text-fill:white;
+    -fx-font-size:20px;
+}
+
+.bottomText {
+    -fx-text-fill:white;
+    -fx-font-size:16px;
+}
+
+.bottomTiles {
+
+    -fx-background-color:linear-gradient(to left, #009fff, #ec2f4b);;
+    -fx-background-radius: 10px;
+}
+
+.bottomTiles:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+    -fx-cursor:hand;
+}
+
+.forcast_card{
+    -fx-background-color:none;
+    -fx-background-radius: 5;
+}
+
+.forcast_card:hover{
+    -fx-background-color:white;
+    -fx-background-radius: 5;
+    -fx-cursor:hand;
+    -fx-opacity:0.20;
+}
+
+.cardtxt{
+    -fx-text-fill:#ffffff;
+    -fx-font-size:18px;
+    -fx-font-weight:bold;
+}
+
+.detailstxt{
+    
+    -fx-text-fill:#ffffff;
+    -fx-font-size:16px;
+    -fx-font-weight:bold;
+}
+
+.fivSearch{
+    -fx-prompt-text-fill:#ffffff;
+    -fx-font-size:16px;
+}
